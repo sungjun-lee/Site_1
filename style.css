@@ -285,6 +285,7 @@ h6 {
 .bar-chart--text{
   font-size : 13px;
   width: 5em;
+  font-family: "MaplestoryOTFBold";
 }
 .chart {
   box-sizing: border-box;
@@ -383,11 +384,13 @@ box-shadow: none;
 
 
 @media screen and (max-width: 600px) {
-    html
-   {
-   overflow: scroll;
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
   }
-
+  
    .left_ad
    , .right_ad{
      display: none;
